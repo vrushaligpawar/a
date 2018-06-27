@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCases_UK_Pre.Perequisite_CreateAccount">
+        <methods>
+          <include name="createAccount2"/>
+          <include name="closeBrowser"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestCases_UK_Pre.Perequisite_CreateAccount -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
