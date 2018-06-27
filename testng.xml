@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestCases_UK.TC10_PS_InsuranceAddOn"/>
+      <class name="TestCases_UK.TC05_PS_CMApproval"/>
+      <class name="TestCases_UK.TC06_LC_InsuranceAddOn"/>
+      <class name="TestCases_UK.TC07_LC_ContractGenerate"/>
+      <class name="TestCases_UK.TC17_LC_FixedProduct_VSDM_SelfApproval"/>
+      <class name="TestCases_UK.TC20_SME_FixedProduct_ReconfigureQuote_Salesspecialist"/>
+      <class name="TestCases_UK.TC15_LC_SelfApproval"/>
+      <class name="TestCases_UK.TC19_PS_FixedProduct_BES_SelfApproval"/>
+      <class name="TestCases_UK.TC09_LC_ProposalGenerate"/>
+      <class name="TestCases_UK.TC01_Prerequisite_CreateOpportunity"/>
+      <class name="TestCases_UK.TC14_PS_CM_ContractGenerate"/>
+      <class name="TestCases_UK.TC18_SME_FixedProduct_VSDM_SelfApproval"/>
+      <class name="TestCases_UK.TC08_PS_ContractGenerate"/>
+      <class name="TestCases_UK.TC16_PS_QuoteSummaryGenerate"/>
+      <class name="TestCases_UK.TC04_PS_SelfApproval"/>
+      <class name="TestCases_UK.TC02_LC_SelfApproval"/>
+      <class name="TestCases_UK.TC11_LC_QuoteSummaryGenerate"/>
+      <class name="TestCases_UK.TC21_LC_FixedProduct_ReconfigureQuote_CommercialManager"/>
+      <class name="TestCases_UK.TC13_ExistingQuoteModify"/>
+      <class name="TestCases_UK.TC12_PS_ProposalGenerate"/>
+      <class name="TestCases_UK.TC03_LC_CMApproval"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
